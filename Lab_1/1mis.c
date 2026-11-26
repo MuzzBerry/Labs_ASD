@@ -1,5 +1,8 @@
-#include <stdio.h>  
-int main() { 
+#include <stdio.h>
+#include <windows.h>
+int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8); 
     float x;  
     int outOfRange;  
     float answer;  
